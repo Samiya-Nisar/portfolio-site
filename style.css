@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: "Akaya Kanadaka", cursive;
+    line-height: 2.5;
+  }
+  body {
+    font-family: "Akaya Kanadaka", cursive;
+  }
+  nav {
+    background: #185b0f;
+    height: 80px;
+    width: 100%;
+    font-family: "Philosopher", sans-serif;
+    color: white;
+  }
+  ul{
+      list-style: none;
+  }
+  
+  nav ul {
+    float: right;
+    margin-right: 20px;
+  }
+  nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    padding: 7px 13px;
+    border-radius: 10px;
+  }
+  a:hover {
+    background-color: rgba(245, 222, 179, 0.349);
+    transition: 0.5s;
+  }
+  .checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check {
+    display: none;
+  }
+  
+  @media (max-width: 858px) {
+    .checkbtn {
+      display: block;
+    }
+    #lst {
+        position: fixed;
+      width: 100%;
+      background: #185b3f;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all 0.5s;
+    }
+    nav ul li {
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    #check:checked ~ ul {
+      left: 0;
+    }
+  }
+  
+ a:hover{
+    background-color:rgba(245, 222, 179, 0.349);
+}
+
+.icons{
+    padding-top: 30px;
+}
+
+.name{
+    padding-top: 30px;
+}
+
+.title {
+    background-color:  #A3A847;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: #fff;
+  }
+  #title{
+      background-color: #A3A847; 
+  }
+  
+  
+  .icons{
+     padding-left: 20px;
+     padding-right: 20px;
+
+  }
+  .name{
+      font-size: xx-large;
+  }
+.main{
+    padding: 60px;
+}
+.introduce{
+    line-height: 40px;
+    font-weight: 50px;
+    font-size: 20px;
+}
+.details{
+    margin-top: 40px;
+}
+.contact{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 50px; 
+}
+.education{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: #A3A83A;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color:  white;
+}
+.college{
+    font-size: 20px;
+    color:white;
+}
+.sites{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 50px; 
+    text-align: left;
+    margin-left: 40px;
+    padding: 40px;
+}
+.publish{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 50px;
+}
+.lnk{
+    color: #185B0F;
+    text-decoration: underline;
+}
+.skills{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    background-color:#A3A83A;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    color: white;
+}
+.skill-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.skill-img img{
+    padding-right: 80px;
+    padding-left: 80px;
+    
+}
+
+@media (max-width:800px){
+    .skill-img{
+        flex-direction: column;
+    }
+    .skill-img img{
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+}
+
+
+.links{
+    background:#185B0F;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color:white;
+    text-align: center;
+}
+.logo{
+    width: 7.5%;
+    position: absolute;
+    left:10px;
+}
+/*-----*/
+
