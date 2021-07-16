@@ -109,8 +109,8 @@
   .icons{
      padding-left: 20px;
      padding-right: 20px;
+}
 
-  }
   .name{
       font-size: xx-large;
   }
@@ -204,5 +204,7 @@
     position: absolute;
     left:10px;
 }
+.sam{
+    color:white;
 /*-----*/
 
